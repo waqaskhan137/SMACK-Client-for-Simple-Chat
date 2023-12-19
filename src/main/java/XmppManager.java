@@ -21,10 +21,10 @@ public class XmppManager {
     private int port;
 
     private ConnectionConfiguration config;
-    private XMPPConnection connection;
+    XMPPConnection connection;
 
-    private ChatManager chatManager;
-    private MessageListener messageListener;
+    ChatManager chatManager;
+    MessageListener messageListener;
 
 
     public XmppManager(String server, int port) {
